@@ -4,3 +4,6 @@ Find `ip_design_project.pdf` file in this folder, and refer to all the instructi
 
 You have to submit your project into this repository before 05.05.2019 (midnight).
 
+#Abbosjon Kudratov
+Spring 2019, Inha Universir in Tashkent
+
