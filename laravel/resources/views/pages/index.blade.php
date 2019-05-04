@@ -1,4 +1,8 @@
 @extends('layouts.app')
+<style type="text/css">
+	#fixed{background-image: url('/mac.png');}
+</style>
+
 
 @section('content')
        {{-- <h1>{{$title}}</h1> --}}
@@ -83,13 +87,13 @@
 	</div>
 	<hr class="my-4">
 	<!--- Fixed background -->
-	<figure>
+	{{-- <figure>
 		<div class="fixed-wrap">
 			<div id="fixed">
 				
 			</div>
 		</div>
-	</figure>
+	</figure> --}}
 	<!--- Emoji Section -->
 	<button class="fun text-center" data-toggle="collapse" data-target="#emoji">Click this button for fun!
 	</button>
