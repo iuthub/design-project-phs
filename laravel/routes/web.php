@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+// Route::get('/pricing', function () {
+//     return view('pages.pricing');
+// });
+
+
+// Route::get('/users/{id}/{name}', function ($id, $name) {
+//     return 'this is user '. $id. 'with name '. $name;
+// });
+
+
+
+Route::get('/', 'PagesController@index');
+Route::get('/about', 'PagesController@about');
+Route::get('/pricing', 'PagesController@pricing');
+Route::get('/services', 'PagesController@services');
+
+
+
