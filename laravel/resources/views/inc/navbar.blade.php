@@ -10,7 +10,7 @@
 						<a href="/" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="/gallery" class="nav-link">Gallery</a>
+						<a href="/posts" class="nav-link">Gallery</a>
 					</li>
 					<li class="nav-item">
 						<a href="/services" class="nav-link">Services</a>
