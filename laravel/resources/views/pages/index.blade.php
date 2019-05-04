@@ -238,7 +238,7 @@
 
 				<div class="col-12">
 					<hr class="light-100">
-					<h6>&copy;2019 Abbosjon Kudratov</h6>
+					<h6>&copy;2019 AK Solutions</h6>
 					
 				</div>
 
