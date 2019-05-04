@@ -169,16 +169,16 @@
 	<div class="container-fluid padding">
 		<div class="row padding">
 			<div class="col-md-12 col-lg-6">
-				<h2>Our philosophy</h2>
-				<p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veritatis modi aspernatur dolore beatae eum dolorem eveniet voluptas exercitationem dicta vero nulla corporis, quo sequi cumque consequatur ad perspiciatis blanditiis!s less than 576px wide</p>
-				<p>Resize to see how it works</p>
+				<h2>Learn how to Use Stock Photos on Instagram efficiently</h2>
+				<p>It only takes seconds for someone to scroll past a picture on Instagram, making it essential to stand out with your imagery! Lucky for you, we made a video on how to create Instagram posts with stock photos that will stand out.</p>
+				<p>
+				Shop our stock photos here in our website!</p>
 				<br>
 				
 			</div>
 			
 			<div class="col-lg-6">
-				<iframe width="600" height="300" src="https://www.youtube.com/embed/8u_mkE-Cykg?autoplay=1">
-				</iframe>
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/924b3gTI94U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 			</div>
 		</div>
