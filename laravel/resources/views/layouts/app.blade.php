@@ -12,6 +12,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <link href="{{asset('css/style.css')}}" rel="stylesheet">
+        <link href="{{asset('css/lightbox.min.css')}}" rel="stylesheet">
         <!-- Fonts -->
         {{-- <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}"> --}}
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
