@@ -9,12 +9,17 @@
 	<div class="padding"></div>
 	@if(count($posts)>0)
 
+		
 		@foreach($posts as $post)
 
+			<div class="col-lg-4 col-md-12 mb-4">
 			<div class="well">
 				<h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
 				<small>Uploaded on {{$post->created_at}}</small>
 			</div>
+			
+			<img src="/img/{{$post->id}}.jpg" class="img-fluid mb-4" alt="something">
+		</div>
 			<div class="padding">
 				
 			</div>
