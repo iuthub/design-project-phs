@@ -137,7 +137,7 @@
 		<div class="row padding">
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team1.png" alt="" class="card-img-top">
+					<img src="img/{{$n3=rand(31,45)}}.jpg" alt="" class="card-img-top">
 					<div class="card-body">
 						<h4 class="card-title">John Doe</h4>
 						<p class="card-text">
@@ -149,7 +149,11 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team2.png" alt="" class="card-img-top">
+					{{-- {{$n1=rand(1,15)}}
+					{{$n2=rand(16,30)}}
+					{{$n3=rand(31,45)}}
+					Hello world{{$n1}} --}}
+					<img src="img/{{$n1=rand(1,15)}}.jpg" alt="" class="card-img-top">
 					<div class="card-body">
 						<h4 class="card-title">John123 Doe123</h4>
 						<p class="card-text">
@@ -161,7 +165,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team3.png" alt="" class="card-img-top">
+					<img src="img/{{$n2=rand(16,30)}}.jpg" alt="" class="card-img-top">
 					<div class="card-body">
 						<h4 class="card-title">John234 Doe</h4>
 						<p class="card-text">
