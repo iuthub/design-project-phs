@@ -20,6 +20,13 @@ class PagesController extends Controller
     	return view('pages.about');
     }
 
+    	 public function register(){
+    	return view('pages.register');
+    }	
+     public function login(){
+    	return view('pages.login');
+    }
+
        public function services(){
        	$data= array('title' =>'Services' ,
        					'services'=> ['Web design', 'Programming']);

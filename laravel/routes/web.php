@@ -29,6 +29,9 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
+Route::get('/register', 'PagesController@register');
+Route::get('/login', 'PagesController@login');
+
 Route::get('/pricing', 'PagesController@pricing');
 Route::get('/services', 'PagesController@services');
 
