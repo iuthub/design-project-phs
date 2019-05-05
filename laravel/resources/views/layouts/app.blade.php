@@ -22,8 +22,10 @@
     <body>
 
         @include('inc.navbar')
-         
+        <div class="padding"></div>
+        <div class="container"> @include('inc.messages') </div>
        
+
        @yield('content')
        
     </body>

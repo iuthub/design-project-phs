@@ -1,6 +1,14 @@
 @extends('layouts.app')
 <style type="text/css">
 	#fixed{background-image: url('/mac.png');}
+/*	.carousel-inner > .carousel-item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}*/
 </style>
 
 
@@ -119,7 +127,7 @@
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
 			<div class="col-12">
-				<h1 class="display-4">Meet the team</h1>
+				<h1 class="display-4">Random Images</h1>
 			</div>
 			<hr>
 		</div>
@@ -135,7 +143,7 @@
 						<p class="card-text">
 							John is some experienced guy
 						</p>
-						<a href="#" class="btn btn-outline-secondary">See the profile</a>
+						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
 				</div>
 			</div>
@@ -147,7 +155,7 @@
 						<p class="card-text">
 							John123 is some 123experienced guy
 						</p>
-						<a href="#" class="btn btn-outline-secondary">See the profile</a>
+						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
 				</div>
 			</div>
@@ -159,7 +167,7 @@
 						<p class="card-text">
 							John234 is some 234experienced guy
 						</p>
-						<a href="#" class="btn btn-outline-secondary">See the profile</a>
+						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
 				</div>
 			</div>
