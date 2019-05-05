@@ -27,9 +27,9 @@
 				<div class="carousel-caption">
 					<h1 class="display-2">PHOTOSTORE</h1>
 					<h3>images for different ocations</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">GET STARTED!</button>
+					<button type="button" onclick="window.location.href = '/posts';" class="btn btn-outline-light btn-lg">GET STARTED!</button>
 					<button type="button" class="btn btn-primary btn-lg">See how it works</button>
-					<button type="button" class="btn btn-primary btn-lg">Prices</button>
+					<button type="button" onclick="window.location.href = '/pricing';" class="btn btn-primary btn-lg">Prices</button>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -86,7 +86,7 @@
 				
 				<p>Documents can be downloaded after receipt of payment in the My accounts menu. Upon request, we will send the original documents by mail.</p>
 				<br>
-				<a href="#" class="btn btn-primary">Learn More About Pricing</a>
+				<a href="/pricing" class="btn btn-primary">Learn More About Pricing</a>
 			</div>
 			<div class="col-lg-6">
 				<img src={{asset('img/download.jpg') }}  class="img-fluid" alt="">
@@ -218,28 +218,29 @@
 				<div class="col-md-4">
 					<img src={{asset('img/logo.png')}} alt="">
 					<hr class="light">
-					<p>55555-55-55</p>
-					<p>email@email.com</p>
-					<p>100 Some str Name</p>
-					<p>City, State, 1000056</p>
+					<p>(+99878) 100-00-10</p>
+					<p>info@phs.co.uz</p>
+					<p>100 Amir Temur str</p>
+					<p>Tashkent, Uzbekistan, 1000056</p>
 				</div>
 
 				<div class="col-md-4">
 					<hr class="light">
 					<h5>Our working hours</h5>
 					<hr class="light">
+					<p>Monday-Friday: 9am - 6pm</p>
 					<p>Saturday: 9am - 5pm</p>
-					<p>Monday: 9am - 5pm</p>
+					
 				</div>
 				
 				<div class="col-md-4">
 					<hr class="light">
-					<h5>Service Area</h5>
+					<h5>Service Area Offices</h5>
 					<hr class="light">
-					<p>Saturday: 9am - 5pm</p>
-					<p>Monday: 9am - 5pm</p>
-					<p>Saturday: 9am - 5pm</p>
-					<p>Monday: 9am - 5pm</p>
+					<a href="#"><p>Central Asia</p></a>
+					<a href="#"><p>Europe</p></a>
+					<a href="#"><p>Middle East</p></a>
+					<a href="#"><p>Australia</p></a>
 				</div>
 
 
