@@ -28,7 +28,8 @@
     </head>
 <body>
  {{-- <h1>Hello world!</h1>  --}}
-
+ <a href="/" class="btn btn-lg btn-primary text-uppercase">Home</a>
+   
  <div class="container">
     <div class="row">
       <div class="col-lg-10 col-xl-9 mx-auto">

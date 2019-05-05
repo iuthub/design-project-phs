@@ -13,11 +13,12 @@
 						<a href="/posts" class="nav-link">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a href="/services" class="nav-link">Services</a>
+						<a href="/pricing" class="nav-link">Services</a>
 					</li>
 					<li class="nav-item">
 						<a href="/about" class="nav-link">About</a>
 					</li>
+
 					<li class="nav-item">
 						<a href="/login" class="nav-link">Login</a>
 					</li>
