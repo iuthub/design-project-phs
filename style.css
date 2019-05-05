@@ -314,6 +314,40 @@ h1{
 	transform: scale(1.1);
 }
 
+.form{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center; 
+}
+input{
+	width: 100%;
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #0078ff;
+
+}
+#msg{
+	margin-top: 40px;
+	
+}
+::-webkit-input-placeholder{
+	color: gray;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+button{
+	padding: 20px, 30px;
+	font-size: 16px;
+	background: #0078ff;
+	border: none;
+	border-radius: 4px;
+	margin-top: 30px;
+	color: #fff;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
