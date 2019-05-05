@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-# uzbstock
-UZBEKSTOCK.UZ photostore
+
+PHS photostore
 =======
 # bootstrap4Proj / Laravel proj
 
 # ©2019`Internet Programming Project| `AK Solutions`
->>>>>>> 9d6f2e1e882ba71caef921f0aaab81fa3ab9d095
->>>>>>> upstream/master
+http://uzbstock1.000webhostapp.com/
