@@ -22,7 +22,7 @@
 						<a href="/login" class="nav-link">Login</a>
 					</li>
 					<li class="nav-item">
-						<a href="/signup" class="nav-link">Sign up</a>
+						<a href="/register" class="nav-link">Register</a>
 					</li>
 				</ul>
 			</div>
