@@ -56,27 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<!--- Three Column Section -->
-	<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fas fa-code"></i>
-				<h3>HTML5</h3>
-				<p>Built with HTML5 latest version</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fas fa-bold"></i>
-				<h3>HTML5</h3>
-				<p>Built with HTML5, Bootstrap4 latest version</p>
-			</div>
-			<div class="col-sm-12 col-md-4">
-				<i class="fab fa-css3"></i>
-				<h3>CSS3</h3>
-				<p>Built with HTML5, CSS3 latest version</p>
-			</div>
-		</div>
-		<hr class="my-4">
-	</div>
+	
 	<!--- Two Column Section -->
 	<div class="container-fluid padding">
 		<div class="row padding">
@@ -137,11 +117,11 @@
 		<div class="row padding">
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team1.png" alt="" class="card-img-top">
+					<img src="img/{{$n3=rand(31,45)}}.jpg" alt="" class="card-img-top">
 					<div class="card-body">
-						<h4 class="card-title">John Doe</h4>
+						<h4 class="card-title">a random image</h4>
 						<p class="card-text">
-							John is some experienced guy
+						This is a random image with id {{$n3}}
 						</p>
 						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
@@ -149,11 +129,15 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team2.png" alt="" class="card-img-top">
+					{{-- {{$n1=rand(1,15)}}
+					{{$n2=rand(16,30)}}
+					{{$n3=rand(31,45)}}
+					Hello world{{$n1}} --}}
+					<img src="img/{{$n1=rand(1,15)}}.jpg" alt="" class="card-img-top">
 					<div class="card-body">
-						<h4 class="card-title">John123 Doe123</h4>
+						<h4 class="card-title"> a random image</h4>
 						<p class="card-text">
-							John123 is some 123experienced guy
+							This is a random image with id {{$n1}}
 						</p>
 						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
@@ -161,11 +145,12 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="img/team3.png" alt="" class="card-img-top">
+					<img src="img/{{$n2=rand(16,30)}}.jpg" alt="" class="card-img-top">
+					{{-- $id=$n2; --}}
 					<div class="card-body">
-						<h4 class="card-title">John234 Doe</h4>
+						<h4 class="card-title">{{-- {{$post->id}} --}} a random image</h4>
 						<p class="card-text">
-							John234 is some 234experienced guy
+							This is a random image with id {{$n2}}
 						</p>
 						<a href="#" class="btn btn-outline-secondary">See the details</a>
 					</div>
